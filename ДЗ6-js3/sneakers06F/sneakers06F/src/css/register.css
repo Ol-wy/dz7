@@ -1,0 +1,88 @@
+.header { 
+  background-color: #f0f0f0;
+}
+
+.register__input,
+.login__input {
+  padding: 12px 15px;
+  border-radius: 25px;
+  border: 1px solid #bdbdbd;
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #9dd458;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  
+}
+
+.register__input:hover,
+.login__input:hover {
+    background-color: #ececec;
+}
+
+.register__input:focus,
+.login__input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+
+
+.register__error,
+.login__error {
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  color: #ff6464;
+  text-align: start;
+  margin: 0;
+  display: none;
+}
+.register__btn,
+.login__btn {
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  padding: 13px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: #9dd458;
+}
+
+.register__btn:focus,
+.login__btn:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.register__sign ,
+.login__sign  {
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: black;
+}
+
+/* .register__sign a ,
+.login__sign a {
+    color: #000000;
+}  */
